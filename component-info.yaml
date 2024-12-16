@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Proct2"
+  annotations:
+    github.com/project-slug: UKGH1/Proct2
+    backstage.io/techdocs-ref: dir:.
+  title: Proct2  # you can give any title
+  description: Cloud Strategy Creation for Proct2 project. # Change Description accordingly
+spec:
+  type: documentation
+  owner:  "user:default/udaykunta"
+  lifecycle: experimental

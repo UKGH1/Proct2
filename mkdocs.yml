@@ -1,0 +1,36 @@
+site_name: "Proct2"
+site_description: 
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - toc.integrate
+  palette:
+    primary: blue
+    accent: light-blue
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Strategy:
+      - Overview: strategy/overview.md
+      - Goals: strategy/goals.md
+      - Principles: strategy/principles.md
+      - Stakeholders: strategy/stakeholders.md
+  - Implementation:
+      - Cloud Architecture: implementation/cloud-architecture.md
+      - Migration Plan: implementation/migration-plan.md
+      - Governance: implementation/governance.md
+  - Resources:
+      - Tools: resources/tools.md
+      - References: resources/references.md
+      
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+     
+plugins:
+  - techdocs-core
